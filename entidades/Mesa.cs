@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cliente
+namespace Cliente.entidades
 {
-    [Serializable]
+    [Serializable()]
     public class Mesa
     {
         public int MesaId { get; set; }
