@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Cliente.entidades
 {
-    public class Persona
+    public class Clientes
     {
-        public int Id { get; set; }
+        public int ClienteId { get; set; }
         public string nombres { get; set; }
         public string Telefono { get; set; }
         public string Email { get; set; }
-
     }
 }

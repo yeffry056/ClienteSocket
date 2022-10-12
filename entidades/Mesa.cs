@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cliente.entidades
 {
-    [Serializable()]
+    
     public class Mesa
     {
         public int MesaId { get; set; }
